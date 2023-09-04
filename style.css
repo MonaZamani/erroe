@@ -1,0 +1,32 @@
+body{
+    background-color: #fffffe;
+}
+.error{
+    text-align: center;
+}
+.error .tex h1{
+    font-size: 290%;
+    padding-top: 1.5%;
+}
+.error .notfound{
+    background-image:
+    url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    background-repeat: no-repeat;
+    height:400px;
+    background-position: center;
+}
+.error .box{
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+    transition: 0.5s;
+}
+.error .box:hover{
+    transform: scale(1.25,1.25);
+    filter: drop-shadow(10px 8px 6px #b3b3b3);
+}
+    
+
